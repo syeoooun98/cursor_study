@@ -1,4 +1,4 @@
-# 로또 번호 생성기
+# 로또 번호 생성기 BY 서연
 
 Tkinter 기반 GUI로 동작하는 로또(6/45) 번호 생성 프로그램입니다.
 
@@ -10,7 +10,7 @@ python lotto.py
 
 ## 프로그램 구조 (`lotto.py`)
 
-| 함수 | 역할 |
+| 함 수 | 역 할 |
 |---|---|
 | `generate_lotto_numbers(count, exclude, include)` | 핵심 로직. 1~45 중 `exclude`를 제외하고 `include`를 고정 포함시켜, `count`게임만큼 정렬된 6개 번호 리스트를 생성. 고정 번호가 6개 초과이거나 제외/고정 번호가 겹치면 `ValueError` 발생 |
 | `parse_numbers(text)` | 쉼표로 구분된 입력 문자열("1, 7, 22")을 정수 리스트로 변환 |
